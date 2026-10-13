@@ -1,0 +1,1032 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sazerac Rooftop | Private Rooftop Bar &amp; Event Space in San Francisco</title>
+<meta name="description" content="Book the open air rooftop bar at Sazerac on Union Street, San Francisco. String lights, a fire pit, craft cocktails and in house Latin American catering for up to 50 guests.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<style>
+:root{
+  --night:#15110e;
+  --night-2:#211b16;
+  --night-3:#2c241d;
+  --cream:#f6efe4;
+  --sand:#ece2d2;
+  --paper:#fffaf2;
+  --amber:#f2b35a;
+  --amber-deep:#d98c2b;
+  --ember:#c8562f;
+  --leaf:#5f7f45;
+  --ink:#231c16;
+  --muted:#6f6355;
+  --muted-light:#bcae9b;
+  --line:rgba(35,28,22,.12);
+  --line-dark:rgba(246,239,228,.12);
+  --radius:22px;
+  --shadow:0 20px 50px -24px rgba(21,17,14,.45);
+  --ease:cubic-bezier(.22,.8,.26,1);
+  --head:"Bricolage Grotesque",system-ui,sans-serif;
+  --body:"Manrope",system-ui,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:84px}
+body{font-family:var(--body);background:var(--cream);color:var(--ink);line-height:1.6;font-size:16px;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+button,input,select,textarea{font:inherit;color:inherit}
+:focus-visible{outline:3px solid var(--amber);outline-offset:3px;border-radius:6px}
+.wrap{width:min(1200px,100% - 40px);margin-inline:auto}
+h1,h2,h3{font-family:var(--head);line-height:1.05;letter-spacing:-.02em}
+h2{font-size:clamp(2rem,4.4vw,3.3rem);font-weight:800}
+.eyebrow{display:inline-flex;align-items:center;gap:10px;font-size:.78rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--amber-deep);margin-bottom:14px}
+.eyebrow::before{content:"";width:28px;height:2px;background:currentColor;border-radius:2px}
+.lead{color:var(--muted);font-size:1.06rem;max-width:56ch}
+section{padding:110px 0}
+
+/* buttons */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:15px 26px;border-radius:999px;font-weight:700;border:0;cursor:pointer;transition:transform .3s var(--ease),background .3s,box-shadow .3s,color .3s;white-space:nowrap}
+.btn-amber{background:var(--amber);color:var(--night);box-shadow:0 10px 30px -12px rgba(242,179,90,.8)}
+.btn-amber:hover{background:#ffc677;transform:translateY(-2px)}
+.btn-ghost{background:rgba(255,255,255,.08);color:var(--cream);border:1px solid rgba(255,255,255,.25);backdrop-filter:blur(8px)}
+.btn-ghost:hover{background:rgba(255,255,255,.18);transform:translateY(-2px)}
+.btn-dark{background:var(--night);color:var(--cream)}
+.btn-dark:hover{background:var(--night-3);transform:translateY(-2px)}
+.btn i{transition:transform .3s var(--ease)}
+.btn:hover i.fa-arrow-right{transform:translateX(4px)}
+
+/* nav */
+.nav{position:fixed;inset:0 0 auto;z-index:50;padding:18px 0;transition:background .35s,padding .35s,box-shadow .35s}
+.nav.scrolled{background:rgba(21,17,14,.92);backdrop-filter:blur(12px);padding:12px 0;box-shadow:0 10px 30px -20px rgba(0,0,0,.6)}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;gap:20px}
+.logo{display:flex;align-items:center;gap:12px;color:var(--cream);font-family:var(--head);font-weight:800;font-size:1.35rem;letter-spacing:-.01em}
+.logo-mark{width:40px;height:40px;border-radius:12px;background:var(--amber);color:var(--night);display:grid;place-items:center;font-size:1.05rem}
+.logo small{display:block;font-family:var(--body);font-weight:600;font-size:.68rem;letter-spacing:.18em;text-transform:uppercase;color:var(--muted-light);margin-top:2px}
+.nav-links{display:flex;align-items:center;gap:30px;list-style:none}
+.nav-links a{color:rgba(246,239,228,.82);font-weight:600;font-size:.94rem;position:relative;padding:4px 0;transition:color .25s}
+.nav-links a::after{content:"";position:absolute;left:0;bottom:-2px;height:2px;width:100%;background:var(--amber);transform:scaleX(0);transform-origin:left;transition:transform .3s var(--ease)}
+.nav-links a:hover{color:var(--cream)}
+.nav-links a:hover::after{transform:scaleX(1)}
+.nav .btn{padding:11px 20px;font-size:.92rem}
+.burger{display:none;background:none;border:0;color:var(--cream);font-size:1.4rem;cursor:pointer;width:44px;height:44px;border-radius:12px}
+
+/* hero */
+.hero{position:relative;min-height:100svh;display:flex;align-items:flex-end;padding:150px 0 0;color:var(--cream);background:var(--night)}
+.hero-bg{position:absolute;inset:0;overflow:hidden}
+.hero-bg img{width:100%;height:100%;object-fit:cover;transform:scale(1.08);animation:heroZoom 2.2s var(--ease) forwards}
+.hero-bg::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(21,17,14,.55) 0%,rgba(21,17,14,.15) 35%,rgba(21,17,14,.65) 70%,rgba(21,17,14,.96) 100%)}
+@keyframes heroZoom{to{transform:scale(1)}}
+.hero .wrap{position:relative;z-index:2}
+.hero-top{display:grid;grid-template-columns:1.4fr .8fr;gap:40px;align-items:end;padding-bottom:40px}
+.tag{display:inline-flex;align-items:center;gap:8px;background:rgba(242,179,90,.16);border:1px solid rgba(242,179,90,.45);color:var(--amber);padding:8px 14px;border-radius:999px;font-size:.82rem;font-weight:700;margin-bottom:22px}
+.hero h1{font-size:clamp(2.8rem,7.4vw,6.2rem);font-weight:800;margin-bottom:20px}
+.hero h1 em{font-style:normal;color:var(--amber)}
+.hero p.sub{font-size:1.14rem;color:rgba(246,239,228,.85);max-width:52ch;margin-bottom:30px}
+.hero-actions{display:flex;flex-wrap:wrap;gap:14px}
+.hero-card{background:rgba(21,17,14,.55);backdrop-filter:blur(14px);border:1px solid var(--line-dark);border-radius:var(--radius);padding:24px}
+.hero-rating{display:flex;align-items:center;gap:12px;padding-bottom:18px;margin-bottom:18px;border-bottom:1px solid var(--line-dark)}
+.hero-rating strong{font-family:var(--head);font-size:2.2rem;font-weight:800;color:var(--amber)}
+.stars{color:var(--amber);font-size:.85rem;letter-spacing:2px}
+.hero-rating span{font-size:.85rem;color:var(--muted-light)}
+.hero-card ul{list-style:none;display:grid;gap:12px}
+.hero-card li{display:flex;align-items:center;gap:12px;font-size:.95rem}
+.hero-card li i{width:34px;height:34px;border-radius:10px;background:rgba(242,179,90,.15);color:var(--amber);display:grid;place-items:center;font-size:.85rem;flex-shrink:0}
+
+/* quick enquiry bar */
+.quick{position:relative;z-index:3;transform:translateY(50%);margin-top:-10px}
+.quick form{background:var(--paper);color:var(--ink);border-radius:24px;box-shadow:var(--shadow);display:grid;grid-template-columns:1.2fr 1fr .8fr auto;gap:6px;padding:10px}
+.qf{display:flex;align-items:center;gap:14px;padding:12px 18px;border-radius:16px;transition:background .25s}
+.qf:hover,.qf:focus-within{background:var(--sand)}
+.qf i{color:var(--amber-deep);font-size:1.1rem;width:20px;text-align:center}
+.qf label{display:block;font-size:.72rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.qf select,.qf input{border:0;background:transparent;width:100%;font-weight:700;font-size:.98rem;outline:none;padding:2px 0;cursor:pointer}
+.qf > div{flex:1;min-width:0}
+.quick .btn{border-radius:16px;padding:0 30px}
+.quick-note{font-size:.82rem;color:var(--ember);font-weight:600;min-height:0;padding:0 18px;grid-column:1/-1;display:none}
+.quick-note.show{display:block;padding-bottom:6px}
+
+/* about */
+.about{padding-top:190px}
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:center}
+.about-media{position:relative}
+.about-media .frame{border-radius:var(--radius);overflow:hidden;aspect-ratio:4/5;box-shadow:var(--shadow)}
+.about-media img{width:100%;height:100%;object-fit:cover;transition:transform 1.2s var(--ease)}
+.about-media:hover img{transform:scale(1.05)}
+.about-badge{position:absolute;right:-24px;bottom:40px;background:var(--night);color:var(--cream);border-radius:20px;padding:20px 22px;box-shadow:var(--shadow);display:flex;gap:14px;align-items:center;animation:float 5s ease-in-out infinite}
+.about-badge i{font-size:1.5rem;color:var(--amber)}
+.about-badge strong{display:block;font-family:var(--head);font-size:1.3rem}
+.about-badge span{font-size:.82rem;color:var(--muted-light)}
+@keyframes float{50%{transform:translateY(-10px)}}
+.about-text h2{margin-bottom:22px}
+.about-text .lead{margin-bottom:34px}
+.features{display:grid;gap:14px}
+.feature{display:flex;gap:18px;padding:18px 20px;border-radius:18px;background:var(--paper);border:1px solid var(--line);transition:transform .35s var(--ease),box-shadow .35s,border-color .35s}
+.feature:hover{transform:translateX(6px);box-shadow:var(--shadow);border-color:transparent}
+.feature i{width:48px;height:48px;border-radius:14px;background:var(--night);color:var(--amber);display:grid;place-items:center;font-size:1.1rem;flex-shrink:0;transition:background .35s,color .35s}
+.feature:hover i{background:var(--amber);color:var(--night)}
+.feature h3{font-size:1.12rem;font-weight:700;margin-bottom:4px}
+.feature p{font-size:.93rem;color:var(--muted)}
+
+/* gallery */
+.gallery{background:var(--night);color:var(--cream)}
+.sec-head{display:flex;justify-content:space-between;align-items:flex-end;gap:30px;margin-bottom:44px;flex-wrap:wrap}
+.gallery .lead{color:var(--muted-light)}
+.filters{display:flex;gap:8px;background:var(--night-2);padding:6px;border-radius:999px;border:1px solid var(--line-dark)}
+.filters button{background:none;border:0;color:var(--muted-light);padding:10px 20px;border-radius:999px;font-weight:700;font-size:.9rem;cursor:pointer;transition:background .3s,color .3s;display:flex;align-items:center;gap:8px}
+.filters button.active{background:var(--amber);color:var(--night)}
+.filters button:not(.active):hover{color:var(--cream)}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:220px;gap:14px;grid-auto-flow:dense}
+.tile{position:relative;border-radius:18px;overflow:hidden;cursor:zoom-in;background:var(--night-2);border:0;padding:0;transition:opacity .45s var(--ease),transform .45s var(--ease)}
+.tile.wide{grid-column:span 2}
+.tile.tall{grid-row:span 2}
+.tile.big{grid-column:span 2;grid-row:span 2}
+.tile img{width:100%;height:100%;object-fit:cover;transition:transform .9s var(--ease),filter .5s}
+.tile::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 50%,rgba(21,17,14,.85));opacity:0;transition:opacity .4s}
+.tile .cap{position:absolute;left:16px;right:16px;bottom:14px;z-index:2;display:flex;justify-content:space-between;align-items:center;gap:10px;color:var(--cream);font-weight:700;font-size:.92rem;text-align:left;transform:translateY(12px);opacity:0;transition:.4s var(--ease)}
+.tile .cap i{width:36px;height:36px;border-radius:50%;background:var(--amber);color:var(--night);display:grid;place-items:center;flex-shrink:0}
+.tile:hover img,.tile:focus-visible img{transform:scale(1.07)}
+.tile:hover::after,.tile:focus-visible::after{opacity:1}
+.tile:hover .cap,.tile:focus-visible .cap{opacity:1;transform:none}
+.tile.hide{display:none}
+.count{margin-top:22px;font-size:.88rem;color:var(--muted-light);display:flex;align-items:center;gap:8px}
+
+/* lightbox */
+.lb{position:fixed;inset:0;z-index:100;background:rgba(12,9,7,.95);display:flex;align-items:center;justify-content:center;opacity:0;visibility:hidden;transition:opacity .35s,visibility .35s}
+.lb.open{opacity:1;visibility:visible}
+.lb figure{max-width:min(1100px,92vw);text-align:center}
+.lb img{max-height:78vh;width:auto;margin:0 auto;border-radius:14px;transform:scale(.96);transition:transform .4s var(--ease),opacity .25s}
+.lb.open img{transform:none}
+.lb figcaption{color:var(--cream);margin-top:16px;font-weight:600}
+.lb figcaption span{color:var(--muted-light);font-weight:500;margin-left:10px}
+.lb-btn{position:absolute;width:52px;height:52px;border-radius:50%;border:1px solid var(--line-dark);background:rgba(255,255,255,.06);color:var(--cream);font-size:1.1rem;cursor:pointer;transition:background .25s,color .25s}
+.lb-btn:hover{background:var(--amber);color:var(--night)}
+.lb-close{top:22px;right:22px}
+.lb-prev{left:22px;top:50%;transform:translateY(-50%)}
+.lb-next{right:22px;top:50%;transform:translateY(-50%)}
+
+/* plan: capacity + hours */
+.plan-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:28px;margin-top:50px}
+.panel{background:var(--paper);border-radius:var(--radius);border:1px solid var(--line);padding:34px}
+.panel h3{font-size:1.4rem;font-weight:800;margin-bottom:6px;display:flex;align-items:center;gap:12px}
+.panel h3 i{color:var(--amber-deep)}
+.panel > p{color:var(--muted);font-size:.94rem;margin-bottom:24px}
+.formats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:28px}
+.formats button{background:var(--cream);border:1.5px solid transparent;border-radius:14px;padding:14px 8px;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:8px;font-weight:700;font-size:.85rem;transition:border-color .25s,background .25s,transform .25s}
+.formats button i{font-size:1.15rem;color:var(--muted)}
+.formats button:hover{transform:translateY(-3px);border-color:var(--line)}
+.formats button.active{background:var(--night);color:var(--cream);border-color:var(--night)}
+.formats button.active i{color:var(--amber)}
+.cap-display{display:flex;align-items:center;gap:26px;background:var(--night);color:var(--cream);border-radius:18px;padding:24px 26px}
+.cap-num{font-family:var(--head);font-weight:800;font-size:4.2rem;line-height:1;color:var(--amber);min-width:2ch;transition:transform .3s var(--ease)}
+.cap-num.bump{transform:scale(1.12)}
+.cap-info{flex:1}
+.cap-info strong{display:block;font-size:1.05rem;margin-bottom:4px}
+.cap-info span{font-size:.88rem;color:var(--muted-light)}
+.dots{display:flex;flex-wrap:wrap;gap:4px;margin-top:12px}
+.dots i{font-size:.62rem;color:rgba(246,239,228,.18);transition:color .3s}
+.dots i.on{color:var(--amber)}
+.price{display:flex;align-items:baseline;gap:10px;margin-bottom:6px}
+.price strong{font-family:var(--head);font-size:3rem;font-weight:800}
+.price span{color:var(--muted);font-weight:600}
+.week{list-style:none;display:grid;gap:8px;margin:22px 0}
+.week li{display:flex;justify-content:space-between;align-items:center;padding:11px 16px;border-radius:12px;background:var(--cream);font-size:.93rem;font-weight:600}
+.week li span:last-child{color:var(--muted);font-weight:500}
+.week li.closed{opacity:.55}
+.week li.closed span:last-child{color:var(--ember);font-weight:700}
+.week li.today{outline:2px solid var(--amber)}
+.mini-notes{display:grid;gap:8px;font-size:.88rem;color:var(--muted)}
+.mini-notes div{display:flex;gap:10px;align-items:flex-start}
+.mini-notes i{color:var(--leaf);margin-top:4px}
+
+/* details */
+.details{background:var(--sand)}
+.d-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:50px}
+.d-card{background:var(--paper);border-radius:var(--radius);padding:32px;transition:transform .4s var(--ease),box-shadow .4s}
+.d-card:hover{transform:translateY(-6px);box-shadow:var(--shadow)}
+.d-icon{width:56px;height:56px;border-radius:16px;display:grid;place-items:center;font-size:1.3rem;margin-bottom:20px}
+.d-card:nth-child(1) .d-icon{background:rgba(200,86,47,.12);color:var(--ember)}
+.d-card:nth-child(2) .d-icon{background:rgba(95,127,69,.14);color:var(--leaf)}
+.d-card:nth-child(3) .d-icon{background:rgba(242,179,90,.2);color:var(--amber-deep)}
+.d-card h3{font-size:1.3rem;font-weight:800;margin-bottom:18px}
+.d-card ul{list-style:none;display:grid;gap:11px}
+.d-card li{display:flex;gap:12px;font-size:.94rem;align-items:flex-start}
+.d-card li i{margin-top:5px;font-size:.8rem;width:14px;text-align:center}
+.d-card li .fa-check{color:var(--leaf)}
+.d-card li .fa-xmark{color:var(--ember)}
+.d-card li .fa-circle-info{color:var(--amber-deep)}
+
+/* reviews */
+.reviews-wrap{display:grid;grid-template-columns:.8fr 1.2fr;gap:50px;align-items:center}
+.score{background:var(--night);color:var(--cream);border-radius:var(--radius);padding:40px;text-align:center;position:relative;overflow:hidden}
+.score::before{content:"";position:absolute;inset:-40% -20% auto;height:200px;background:radial-gradient(circle,rgba(242,179,90,.35),transparent 70%)}
+.score strong{position:relative;display:block;font-family:var(--head);font-size:5.5rem;font-weight:800;color:var(--amber);line-height:1}
+.score .stars{position:relative;font-size:1.1rem;margin:12px 0}
+.score p{position:relative;color:var(--muted-light);font-size:.95rem}
+.r-list{display:grid;gap:16px}
+.review{display:flex;gap:18px;align-items:center;background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:20px 24px;transition:transform .35s var(--ease),border-color .35s}
+.review:hover{transform:translateY(-4px);border-color:var(--amber)}
+.avatar{width:52px;height:52px;border-radius:50%;background:var(--sand);display:grid;place-items:center;font-family:var(--head);font-weight:800;color:var(--ink);flex-shrink:0}
+.review div{flex:1}
+.review strong{display:block}
+.review span{font-size:.88rem;color:var(--muted)}
+.review .stars{font-size:.8rem;white-space:nowrap}
+.verified{color:var(--leaf);font-size:.78rem;font-weight:700;display:inline-flex;align-items:center;gap:6px;margin-left:8px}
+
+/* host */
+.host{padding-top:0}
+.host-card{display:grid;grid-template-columns:auto 1fr auto;gap:36px;align-items:center;background:var(--paper);border:1px solid var(--line);border-radius:28px;padding:36px 40px}
+.host-photo{position:relative;width:120px;height:120px}
+.host-photo img{width:100%;height:100%;border-radius:50%;object-fit:cover;background:var(--sand);border:4px solid var(--cream);box-shadow:var(--shadow)}
+.host-photo span{position:absolute;right:2px;bottom:6px;width:34px;height:34px;border-radius:50%;background:var(--amber);color:var(--night);display:grid;place-items:center;font-size:.8rem;border:3px solid var(--paper)}
+.host-card h3{font-size:1.7rem;font-weight:800;margin-bottom:4px}
+.host-card .role{color:var(--muted);margin-bottom:16px}
+.host-stats{display:flex;flex-wrap:wrap;gap:10px}
+.host-stats div{background:var(--cream);border-radius:12px;padding:9px 14px;font-size:.88rem;font-weight:600;display:flex;align-items:center;gap:8px}
+.host-stats i{color:var(--amber-deep)}
+
+/* booking */
+.book{background:var(--night);color:var(--cream);position:relative;overflow:hidden}
+.book::before{content:"";position:absolute;inset:0;background-image:radial-gradient(circle at 10% 20%,rgba(242,179,90,.18),transparent 30%),radial-gradient(circle at 90% 80%,rgba(200,86,47,.16),transparent 30%);pointer-events:none}
+.lights{position:absolute;top:0;left:0;right:0;height:60px;pointer-events:none}
+.lights span{position:absolute;top:22px;width:8px;height:8px;border-radius:50%;background:var(--amber);box-shadow:0 0 14px 4px rgba(242,179,90,.55);animation:twinkle 3s ease-in-out infinite}
+@keyframes twinkle{50%{opacity:.35}}
+.book .wrap{position:relative}
+.book-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:60px;align-items:start}
+.book .lead{color:var(--muted-light);margin:18px 0 30px}
+.why{list-style:none;display:grid;gap:14px;margin-bottom:30px}
+.why li{display:flex;gap:14px;align-items:center;font-weight:600}
+.why i{width:40px;height:40px;border-radius:12px;background:rgba(242,179,90,.14);color:var(--amber);display:grid;place-items:center;flex-shrink:0}
+.contact-line{display:flex;gap:12px;align-items:center;color:var(--muted-light);font-size:.92rem}
+.contact-line i{color:var(--amber)}
+.form{background:var(--paper);color:var(--ink);border-radius:26px;padding:30px;box-shadow:0 30px 60px -30px rgba(0,0,0,.7)}
+.form-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:22px;gap:12px}
+.form-head h3{font-size:1.45rem;font-weight:800}
+.form-head span{font-size:.8rem;font-weight:700;color:var(--leaf);background:rgba(95,127,69,.12);padding:6px 12px;border-radius:999px;white-space:nowrap}
+.fgrid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.fgrid .full{grid-column:1/-1}
+.field label{display:block;font-size:.78rem;font-weight:700;color:var(--muted);margin-bottom:6px}
+.field input,.field select,.field textarea{width:100%;padding:13px 14px;border-radius:12px;border:1.5px solid var(--line);background:var(--cream);transition:border-color .25s,background .25s,box-shadow .25s;outline:none}
+.field textarea{resize:vertical;min-height:84px}
+.field input:focus,.field select:focus,.field textarea:focus{border-color:var(--amber-deep);background:#fff;box-shadow:0 0 0 4px rgba(242,179,90,.2)}
+.field.err input,.field.err select{border-color:var(--ember)}
+.msg{font-size:.78rem;margin-top:6px;font-weight:600;display:none}
+.msg.show{display:block}
+.msg.bad{color:var(--ember)}
+.msg.warn{color:var(--amber-deep)}
+.stepper{display:flex;align-items:center;border:1.5px solid var(--line);border-radius:12px;background:var(--cream);overflow:hidden}
+.stepper button{width:46px;height:47px;border:0;background:transparent;cursor:pointer;font-size:.9rem;transition:background .2s}
+.stepper button:hover{background:var(--sand)}
+.stepper input{border:0;background:transparent;text-align:center;font-weight:700;padding:0;box-shadow:none!important}
+.summary{display:flex;justify-content:space-between;align-items:center;gap:16px;margin-top:20px;padding:16px 18px;border-radius:14px;background:var(--cream);font-size:.9rem}
+.summary strong{font-family:var(--head);font-size:1.25rem}
+.summary small{display:block;color:var(--muted)}
+.form .btn{width:100%;margin-top:16px;padding:17px}
+.fine{text-align:center;font-size:.8rem;color:var(--muted);margin-top:12px}
+.success{display:none;text-align:center;padding:30px 10px}
+.success i{font-size:3rem;color:var(--leaf);margin-bottom:16px}
+.success h3{font-size:1.6rem;margin-bottom:8px}
+.success p{color:var(--muted)}
+.form.done .form-body{display:none}
+.form.done .success{display:block;animation:pop .5s var(--ease)}
+@keyframes pop{from{opacity:0;transform:scale(.95)}}
+
+/* faq + map */
+.faq-grid{display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:start}
+.faq{display:grid;gap:12px;margin-top:30px}
+.faq details{background:var(--paper);border:1px solid var(--line);border-radius:16px;overflow:hidden;transition:border-color .3s}
+.faq details[open]{border-color:var(--amber)}
+.faq summary{list-style:none;cursor:pointer;padding:18px 22px;font-weight:700;display:flex;justify-content:space-between;gap:16px;align-items:center}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary i{transition:transform .3s var(--ease);color:var(--amber-deep)}
+.faq details[open] summary i{transform:rotate(45deg)}
+.faq details p{padding:0 22px 20px;color:var(--muted);font-size:.95rem}
+.map{border-radius:var(--radius);overflow:hidden;border:1px solid var(--line);background:var(--paper)}
+.map iframe{width:100%;height:340px;border:0;display:block;filter:sepia(.25) saturate(.9)}
+.map-info{padding:22px 24px;display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}
+.map-info strong{display:block}
+.map-info span{color:var(--muted);font-size:.9rem}
+.map-info a{color:var(--amber-deep);font-weight:700;display:inline-flex;gap:8px;align-items:center}
+
+/* footer */
+footer{background:var(--night);color:var(--muted-light);padding:70px 0 30px}
+.f-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1.2fr;gap:40px;padding-bottom:44px;border-bottom:1px solid var(--line-dark)}
+.f-grid p{font-size:.92rem;margin-top:16px;max-width:34ch}
+footer h4{color:var(--cream);font-family:var(--head);font-size:1.05rem;margin-bottom:18px}
+footer ul{list-style:none;display:grid;gap:10px;font-size:.92rem}
+footer ul a{transition:color .25s,padding .25s}
+footer ul a:hover{color:var(--amber);padding-left:4px}
+footer li i{color:var(--amber);width:20px}
+.socials{display:flex;gap:10px;margin-top:20px}
+.socials a{width:40px;height:40px;border-radius:12px;border:1px solid var(--line-dark);display:grid;place-items:center;transition:background .25s,color .25s,transform .25s}
+.socials a:hover{background:var(--amber);color:var(--night);transform:translateY(-3px)}
+.copy{text-align:center;padding-top:26px;font-size:.86rem}
+
+/* mobile sticky cta */
+.sticky-cta{position:fixed;left:12px;right:12px;bottom:12px;z-index:40;display:none;align-items:center;justify-content:space-between;gap:12px;background:var(--night);color:var(--cream);padding:10px 10px 10px 20px;border-radius:18px;box-shadow:0 14px 40px -10px rgba(0,0,0,.6);transition:transform .4s var(--ease)}
+.sticky-cta strong{font-family:var(--head);font-size:1.1rem}
+.sticky-cta small{display:block;color:var(--muted-light);font-size:.75rem}
+.sticky-cta .btn{padding:12px 18px}
+.sticky-cta.hidden{transform:translateY(140%)}
+
+/* reveal */
+.reveal{opacity:0;transform:translateY(30px);transition:opacity .9s var(--ease),transform .9s var(--ease)}
+.reveal.in{opacity:1;transform:none}
+.d1{transition-delay:.1s}.d2{transition-delay:.2s}.d3{transition-delay:.3s}
+
+/* responsive */
+@media (max-width:1024px){
+  .hero-top{grid-template-columns:1fr}
+  .hero-card{max-width:440px}
+  .about-grid,.book-grid,.reviews-wrap,.faq-grid,.plan-grid{grid-template-columns:1fr}
+  .about-media .frame{aspect-ratio:16/11}
+  .about-badge{right:16px}
+  .d-grid{grid-template-columns:1fr 1fr}
+  .grid{grid-template-columns:repeat(3,1fr)}
+  .f-grid{grid-template-columns:1fr 1fr}
+}
+@media (max-width:860px){
+  .nav-links{position:fixed;top:0;right:0;height:100vh;width:min(320px,85vw);background:var(--night);flex-direction:column;align-items:flex-start;padding:100px 34px;gap:24px;transform:translateX(100%);transition:transform .45s var(--ease);box-shadow:-20px 0 50px rgba(0,0,0,.4)}
+  .nav-links.open{transform:none}
+  .nav-links a{font-size:1.15rem}
+  .burger{display:grid;place-items:center;position:relative;z-index:60}
+  .nav .wrap > .btn{display:none}
+  .quick{transform:none;margin-top:24px;padding-bottom:30px}
+  .quick form{grid-template-columns:1fr}
+  .quick .btn{padding:16px}
+  .about{padding-top:90px}
+  .host-card{grid-template-columns:1fr;text-align:center;justify-items:center;padding:32px 24px}
+  .host-stats{justify-content:center}
+  .sticky-cta{display:flex}
+  footer{padding-bottom:100px}
+}
+@media (max-width:640px){
+  section{padding:80px 0}
+  .wrap{width:min(1200px,100% - 32px)}
+  .grid{grid-template-columns:1fr 1fr;grid-auto-rows:160px}
+  .tile.big{grid-column:span 2}
+  .tile .cap{opacity:1;transform:none;font-size:.8rem}
+  .tile .cap i{display:none}
+  .tile::after{opacity:1}
+  .formats{grid-template-columns:repeat(4,1fr);gap:6px}
+  .formats button{font-size:.72rem;padding:12px 4px}
+  .cap-display{flex-direction:column;align-items:flex-start;gap:12px}
+  .d-grid{grid-template-columns:1fr}
+  .fgrid{grid-template-columns:1fr}
+  .panel,.form{padding:24px}
+  .filters{width:100%;overflow-x:auto}
+  .filters button{padding:10px 14px;flex-shrink:0}
+  .f-grid{grid-template-columns:1fr}
+  .lb-prev,.lb-next{top:auto;bottom:24px;transform:none}
+  .review{flex-wrap:wrap}
+}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+  .reveal{opacity:1;transform:none}
+  .hero-bg img{transform:none}
+}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<header class="nav" id="nav">
+  <div class="wrap">
+    <a href="#top" class="logo" aria-label="Sazerac Rooftop home">
+      <span class="logo-mark"><i class="fa-solid fa-champagne-glasses"></i></span>
+      <span>Sazerac<small>Rooftop &middot; Union St</small></span>
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#space">The Space</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#plan">Capacity &amp; Prices</a></li>
+      <li><a href="#details">Details</a></li>
+      <li><a href="#faq">FAQ</a></li>
+    </ul>
+    <a href="#book" class="btn btn-amber">Book the Rooftop <i class="fa-solid fa-arrow-right"></i></a>
+    <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false"><i class="fa-solid fa-bars"></i></button>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- HERO -->
+<section class="hero" aria-label="Introduction">
+  <div class="hero-bg">
+    <img src="https://www.tagvenue.com/resize/e5/91/widen-1680-noupsize;79753-rooftop-restaurant-and-bar-room.jpg" alt="Open air rooftop bar with a long bar counter, string lights and a living green wall at Sazerac" fetchpriority="high">
+  </div>
+  <div class="wrap">
+    <div class="hero-top">
+      <div class="reveal">
+        <span class="tag"><i class="fa-solid fa-location-dot"></i> Cow Hollow, San Francisco</span>
+        <h1>Your party, <em>above</em> Union Street.</h1>
+        <p class="sub">A private open air rooftop bar with city views, twinkling string lights, a fire pit and craft cocktails. Host up to 50 guests with food and drinks handled by our in house team.</p>
+        <div class="hero-actions">
+          <a href="#book" class="btn btn-amber">Check your date <i class="fa-solid fa-arrow-right"></i></a>
+          <a href="#gallery" class="btn btn-ghost"><i class="fa-regular fa-images"></i> See all photos</a>
+        </div>
+      </div>
+      <aside class="hero-card reveal d2">
+        <div class="hero-rating">
+          <strong>4.5</strong>
+          <div><div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></div><span>6 verified event reviews</span></div>
+        </div>
+        <ul>
+          <li><i class="fa-solid fa-users"></i> Up to 50 standing, 40 seated</li>
+          <li><i class="fa-solid fa-tag"></i> From $500 minimum spend</li>
+          <li><i class="fa-regular fa-clock"></i> Wed to Sun, 12 pm to 10 pm</li>
+          <li><i class="fa-solid fa-utensils"></i> In house Latin American catering</li>
+        </ul>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- QUICK ENQUIRY -->
+<div class="wrap quick">
+  <form id="quickForm" aria-label="Quick availability check">
+    <div class="qf">
+      <i class="fa-solid fa-champagne-glasses"></i>
+      <div><label for="qType">Event</label>
+        <select id="qType">
+          <option>Birthday party</option>
+          <option>Corporate event</option>
+          <option>Happy hour</option>
+          <option>Celebration dinner</option>
+          <option>Private party</option>
+          <option>Ticketed event</option>
+        </select></div>
+    </div>
+    <div class="qf">
+      <i class="fa-regular fa-calendar"></i>
+      <div><label for="qDate">Date</label><input type="date" id="qDate"></div>
+    </div>
+    <div class="qf">
+      <i class="fa-solid fa-user-group"></i>
+      <div><label for="qGuests">Guests</label>
+        <select id="qGuests">
+          <option value="10">Up to 10</option>
+          <option value="20" selected>11 to 20</option>
+          <option value="30">21 to 30</option>
+          <option value="40">31 to 40</option>
+          <option value="50">41 to 50</option>
+        </select></div>
+    </div>
+    <button type="submit" class="btn btn-dark">Continue <i class="fa-solid fa-arrow-right"></i></button>
+    <p class="quick-note" id="quickNote" role="status"></p>
+  </form>
+</div>
+
+<!-- ABOUT -->
+<section class="about" id="space">
+  <div class="wrap about-grid">
+    <div class="about-media reveal">
+      <div class="frame"><img src="https://www.tagvenue.com/resize/75/81/widen-1680-noupsize;79753-rooftop-restaurant-and-bar-room.jpg" alt="Rooftop seating under string lights with wooden lattice walls" loading="lazy"></div>
+      <div class="about-badge">
+        <i class="fa-solid fa-award"></i>
+        <div><strong>Trusted Partner</strong><span>Proven record of successful events</span></div>
+      </div>
+    </div>
+    <div class="about-text reveal d1">
+      <span class="eyebrow">The space</span>
+      <h2>An urban oasis made for good nights.</h2>
+      <p class="lead">Upstairs at Sazerac, the rooftop bar is the crown jewel of the restaurant. It is spacious, open to the sky and wrapped in greenery, so it works just as well for a sunset happy hour as it does for a birthday that runs late.</p>
+      <div class="features">
+        <div class="feature"><i class="fa-solid fa-city"></i><div><h3>Open air city views</h3><p>A private rooftop with natural light by day and string lights after dark.</p></div></div>
+        <div class="feature"><i class="fa-solid fa-fire"></i><div><h3>Fire pit and lounge seating</h3><p>Gather around the circular fire pit or settle in at high tables by the bar.</p></div></div>
+        <div class="feature"><i class="fa-solid fa-martini-glass-citrus"></i><div><h3>Full bar and kitchen</h3><p>Craft cocktails and Latin American dishes with vegan, gluten free and kosher options.</p></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section class="gallery" id="gallery">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="reveal">
+        <span class="eyebrow">Gallery</span>
+        <h2>Take a look around.</h2>
+        <p class="lead">Tap any photo to open it full screen. Use the tabs to switch between the rooftop and the dining room.</p>
+      </div>
+      <div class="filters reveal d1" role="tablist" aria-label="Filter photos">
+        <button class="active" data-filter="all" role="tab" aria-selected="true"><i class="fa-solid fa-border-all"></i> All</button>
+        <button data-filter="roof" role="tab" aria-selected="false"><i class="fa-solid fa-moon"></i> Rooftop</button>
+        <button data-filter="dining" role="tab" aria-selected="false"><i class="fa-solid fa-utensils"></i> Dining room</button>
+      </div>
+    </div>
+
+    <div class="grid" id="grid">
+      <button class="tile big" data-cat="roof" data-title="Rooftop bar in full swing"><img loading="lazy" src="https://www.tagvenue.com/resize/ed/e8/widen-1680-noupsize;79753-rooftop-restaurant-and-bar-room.jpg" alt="Lively crowd on the rooftop with bartenders mixing drinks"><span class="cap">Rooftop bar in full swing <i class="fa-solid fa-expand"></i></span></button>
+      <button class="tile tall" data-cat="roof" data-title="Fire pit lounge"><img loading="lazy" src="https://www.tagvenue.com/resize/47/bc/widen-1680-noupsize;79753-rooftop-restaurant-and-bar-room.jpg" alt="Circular fire pit with wooden bench seating"><span class="cap">Fire pit lounge <i class="fa-solid fa-expand"></i></span></button>
+      <button class="tile" data-cat="roof" data-title="Neon and high tables"><img loading="lazy" src="https://www.tagvenue.com/resize/04/68/widen-1680-noupsize;79753-rooftop-restaurant-and-bar-room.jpg" alt="High tables under string lights with a neon sign"><span class="cap">Neon and high tables <i class="fa-solid fa-expand"></i></span></button>
+      <button class="tile wide" data-cat="dining" data-title="Private dining room"><img loading="lazy" src="https://www.tagvenue.com/resize/91/2f/widen-1680-noupsize;79753-boto-restaurant-room-enhanced-v1-3543487.jpeg" alt="Dining room with wooden floors, potted plants and round tables"><span class="cap">Private dining room <i class="fa-solid fa-expand"></i></span></button>
+      <button class="tile" data-cat="roof" data-title="Vine covered ceiling"><img loading="lazy" src="https://www.tagvenue.com/resize/14/cf/widen-1680-noupsize;79753-rooftop-restaurant-and-bar-room.jpg" alt="Vine covered ceiling with hanging lights and high tables"><span class="cap">Vine covered ceiling <i class="fa-solid fa-expand"></i></span></button>
+      <button class="tile tall" data-cat="dining" data-title="Greenery wall shelves"><img loading="lazy" src="https://www.tagvenue.com/resize/c2/e4/widen-1680-noupsize;79753-boto-restaurant-room-enhanced-v1-3543498.jpeg" alt="Potted plants on wall shelves above set tables"><span class="cap">Greenery wall shelves <i class="fa-solid fa-expand"></i></span></button>
+      <button class="tile wide" data-cat="roof" data-title="Banquet setup outdoors"><img loading="lazy" src="https://www.tagvenue.com/resize/61/71/widen-1680-noupsize;79753-rooftop-restaurant-and-bar-room.jpeg" alt="Outdoor banquet tables set with glassware and greenery"><span class="cap">Banquet setup outdoors <i class="fa-solid fa-expand"></i></span></button>
+      <button class="tile" data-cat="roof" data-title="Celebration with a balloon arch"><img loading="lazy" src="https://www.tagvenue.com/resize/62/7f/widen-1680-noupsize;79753-rooftop-restaurant-and-bar-room.jpg" alt="Open air patio with wooden doors and a white balloon arch"><span class="cap">Balloon arch celebration <i class="fa-solid fa-expand"></i></span></button>
+      <button class="tile" data-cat="dining" data-title="Round tables, ready to go"><img loading="lazy" src="https://www.tagvenue.com/resize/9d/6d/widen-1680-noupsize;79753-boto-restaurant-room-enhanced-v1-3543488.jpeg" alt="Round tables set with glassware among potted plants"><span class="cap">Round tables, ready to go <i class="fa-solid fa-expand"></i></span></button>
+      <button class="tile wide" data-cat="roof" data-title="Bar stools and string lights"><img loading="lazy" src="https://www.tagvenue.com/resize/27/b0/widen-1680-noupsize;79753-rooftop-restaurant-and-bar-room.jpg" alt="Black metal tables and bar stools with potted plants and string lights"><span class="cap">Bar stools and string lights <i class="fa-solid fa-expand"></i></span></button>
+      <button class="tile" data-cat="dining" data-title="Dinner for a crowd"><img loading="lazy" src="https://www.tagvenue.com/resize/f3/55/widen-1680-noupsize;79753-boto-restaurant-room-enhanced-v1-3543489.jpeg" alt="Set round tables with potted plants on shelves"><span class="cap">Dinner for a crowd <i class="fa-solid fa-expand"></i></span></button>
+      <button class="tile" data-cat="roof" data-title="Patio at golden hour"><img loading="lazy" src="https://www.tagvenue.com/resize/78/74/widen-1680-noupsize;45524-sazerac-venue.jpeg" alt="Outdoor patio with string lights, plants and wooden tables"><span class="cap">Patio at golden hour <i class="fa-solid fa-expand"></i></span></button>
+    </div>
+    <p class="count"><i class="fa-regular fa-images"></i> <span id="countText">Showing all 12 photos</span></p>
+  </div>
+</section>
+
+<!-- PLAN: CAPACITY + PRICES -->
+<section id="plan">
+  <div class="wrap">
+    <div class="reveal">
+      <span class="eyebrow">Plan your event</span>
+      <h2>How many guests, and when?</h2>
+      <p class="lead">Pick a layout to see how many people fit. Prices are a minimum spend on food and drinks, with sales tax already included.</p>
+    </div>
+    <div class="plan-grid">
+      <div class="panel reveal">
+        <h3><i class="fa-solid fa-people-group"></i> Capacity by layout</h3>
+        <p>Choose the setup that matches your event.</p>
+        <div class="formats" id="formats">
+          <button class="active" data-n="50" data-name="Standing reception" data-hint="Best for cocktail parties and happy hours"><i class="fa-solid fa-champagne-glasses"></i>Standing</button>
+          <button data-n="40" data-name="Seated dining" data-hint="Best for birthday and celebration dinners"><i class="fa-solid fa-utensils"></i>Dining</button>
+          <button data-n="35" data-name="Classroom" data-hint="Rows of tables facing the front"><i class="fa-solid fa-chalkboard-user"></i>Classroom</button>
+          <button data-n="30" data-name="Theatre" data-hint="Rows of chairs for talks and screenings"><i class="fa-solid fa-person-chalkboard"></i>Theatre</button>
+          <button data-n="30" data-name="Boardroom" data-hint="One long table for team meetings"><i class="fa-solid fa-briefcase"></i>Boardroom</button>
+          <button data-n="30" data-name="Cabaret" data-hint="Round tables with open sides toward the front"><i class="fa-solid fa-circle-dot"></i>Cabaret</button>
+          <button data-n="30" data-name="U shaped" data-hint="Great for workshops and discussions"><i class="fa-solid fa-u"></i>U shaped</button>
+          <button data-n="50" data-name="Whole rooftop" data-hint="Mix of standing, lounge and high tables"><i class="fa-solid fa-star"></i>Mixed</button>
+        </div>
+        <div class="cap-display" aria-live="polite">
+          <div class="cap-num" id="capNum">50</div>
+          <div class="cap-info">
+            <strong id="capName">Standing reception</strong>
+            <span id="capHint">Best for cocktail parties and happy hours</span>
+            <div class="dots" id="dots" aria-hidden="true"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel reveal d1">
+        <h3><i class="fa-solid fa-receipt"></i> Prices and hours</h3>
+        <div class="price"><strong>$500</strong><span>minimum spend per session</span></div>
+        <ul class="week" id="week">
+          <li data-d="0"><span>Sunday</span><span>12 pm to 10 pm</span></li>
+          <li data-d="1" class="closed"><span>Monday</span><span>Closed</span></li>
+          <li data-d="2" class="closed"><span>Tuesday</span><span>Closed</span></li>
+          <li data-d="3"><span>Wednesday</span><span>12 pm to 10 pm</span></li>
+          <li data-d="4"><span>Thursday</span><span>12 pm to 10 pm</span></li>
+          <li data-d="5"><span>Friday</span><span>12 pm to 10 pm</span></li>
+          <li data-d="6"><span>Saturday</span><span>12 pm to 10 pm</span></li>
+        </ul>
+        <div class="mini-notes">
+          <div><i class="fa-solid fa-check"></i> Prices are flexible depending on your event</div>
+          <div><i class="fa-solid fa-check"></i> Alcohol licence until 2 am, extension available</div>
+          <div><i class="fa-solid fa-check"></i> Flexible cancellation, full refund 7 days ahead</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- DETAILS -->
+<section class="details" id="details">
+  <div class="wrap">
+    <div class="reveal">
+      <span class="eyebrow">Good to know</span>
+      <h2>Everything included, nothing hidden.</h2>
+    </div>
+    <div class="d-grid">
+      <article class="d-card reveal">
+        <div class="d-icon"><i class="fa-solid fa-bowl-food"></i></div>
+        <h3>Food and drinks</h3>
+        <ul>
+          <li><i class="fa-solid fa-check"></i> In house Latin American catering</li>
+          <li><i class="fa-solid fa-check"></i> Vegan, vegetarian and gluten free menus</li>
+          <li><i class="fa-solid fa-check"></i> Kosher menu available</li>
+          <li><i class="fa-solid fa-check"></i> Full bar with craft cocktails</li>
+          <li><i class="fa-solid fa-check"></i> Complimentary water for guests</li>
+          <li><i class="fa-solid fa-xmark"></i> No outside catering or BYO alcohol</li>
+        </ul>
+      </article>
+      <article class="d-card reveal d1">
+        <div class="d-icon"><i class="fa-solid fa-plug"></i></div>
+        <h3>Facilities</h3>
+        <ul>
+          <li><i class="fa-solid fa-check"></i> Free Wi-Fi and flatscreen TV</li>
+          <li><i class="fa-solid fa-check"></i> PA system and speakers</li>
+          <li><i class="fa-solid fa-check"></i> Play your own music</li>
+          <li><i class="fa-solid fa-check"></i> Video and lighting equipment</li>
+          <li><i class="fa-solid fa-check"></i> Whiteboard and storage space</li>
+          <li><i class="fa-solid fa-check"></i> Free street parking plus paid lots nearby</li>
+        </ul>
+      </article>
+      <article class="d-card reveal d2">
+        <div class="d-icon"><i class="fa-solid fa-clipboard-list"></i></div>
+        <h3>House rules</h3>
+        <ul>
+          <li><i class="fa-solid fa-circle-info"></i> Guests under 21 not allowed after 5 pm</li>
+          <li><i class="fa-solid fa-circle-info"></i> Music volume lowered after 10 pm</li>
+          <li><i class="fa-solid fa-circle-info"></i> Promoted and ticketed events welcome</li>
+          <li><i class="fa-solid fa-xmark"></i> Outside DJs are not allowed</li>
+          <li><i class="fa-solid fa-xmark"></i> Rooftop is upstairs with no lift or wheelchair access</li>
+          <li><i class="fa-solid fa-check"></i> Accessible restrooms on site</li>
+        </ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section id="reviews">
+  <div class="wrap reviews-wrap">
+    <div class="score reveal">
+      <strong>4.5</strong>
+      <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></div>
+      <p>Average from 6 verified event bookings</p>
+    </div>
+    <div class="reveal d1">
+      <span class="eyebrow">What hosts say</span>
+      <h2 style="margin-bottom:24px">Easy to plan with.</h2>
+      <div class="r-list">
+        <div class="review"><span class="avatar">LL</span><div><strong>Lauren L. <span class="verified"><i class="fa-solid fa-circle-check"></i> Verified</span></strong><span>"Excellent communication"</span></div><span class="stars"><i class="fa-solid fa-star"></i> 5.0</span></div>
+        <div class="review"><span class="avatar">RR</span><div><strong>Rishi R. <span class="verified"><i class="fa-solid fa-circle-check"></i> Verified</span></strong><span>"Excellent communication"</span></div><span class="stars"><i class="fa-solid fa-star"></i> 5.0</span></div>
+        <div class="review"><span class="avatar">PO</span><div><strong>Patti O. <span class="verified"><i class="fa-solid fa-circle-check"></i> Verified</span></strong><span>"Pleasant communication"</span></div><span class="stars"><i class="fa-solid fa-star"></i> 4.0</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HOST -->
+<section class="host" aria-label="Your event manager">
+  <div class="wrap">
+    <div class="host-card reveal">
+      <div class="host-photo">
+        <img src="https://www.tagvenue.com/resize/202603/e0/12/fit-140-140;46289-jaxton-funk-manager-Nje1waZj.png" alt="Jaxton F., event manager at Sazerac" loading="lazy">
+        <span><i class="fa-solid fa-check"></i></span>
+      </div>
+      <div>
+        <h3>Meet Jaxton F.</h3>
+        <p class="role">Your personal event manager at Sazerac. He will help with your menu, setup and budget so you can just enjoy the night.</p>
+        <div class="host-stats">
+          <div><i class="fa-solid fa-bolt"></i> Replies in about 3 hours</div>
+          <div><i class="fa-solid fa-reply"></i> 98% response rate</div>
+          <div><i class="fa-solid fa-star"></i> 4.5 host rating</div>
+        </div>
+      </div>
+      <a href="#book" class="btn btn-dark"><i class="fa-regular fa-paper-plane"></i> Message Jaxton</a>
+    </div>
+  </div>
+</section>
+
+<!-- BOOKING -->
+<section class="book" id="book">
+  <div class="lights" id="lights" aria-hidden="true"></div>
+  <div class="wrap book-grid">
+    <div class="reveal">
+      <span class="eyebrow">Book the rooftop</span>
+      <h2>Lock in your date.</h2>
+      <p class="lead">Send a quick request and Jaxton will confirm availability and build a menu around your budget. No payment needed to enquire.</p>
+      <ul class="why">
+        <li><i class="fa-solid fa-calendar-check"></i> Open Wednesday to Sunday</li>
+        <li><i class="fa-solid fa-hand-holding-dollar"></i> Menus for budgets of all sizes</li>
+        <li><i class="fa-solid fa-rotate-left"></i> Full refund if you cancel 7 days ahead</li>
+      </ul>
+      <div class="contact-line"><i class="fa-solid fa-location-dot"></i> 1851 Union Street, San Francisco, CA 94123</div>
+    </div>
+
+    <div class="form reveal d1" id="formBox">
+      <form class="form-body" id="bookForm" novalidate>
+        <div class="form-head">
+          <h3>Event request</h3>
+          <span><i class="fa-solid fa-bolt"></i> Reply in ~3 hrs</span>
+        </div>
+        <div class="fgrid">
+          <div class="field">
+            <label for="fType">Event type</label>
+            <select id="fType" required>
+              <option>Birthday party</option>
+              <option>Corporate event</option>
+              <option>Happy hour</option>
+              <option>Celebration dinner</option>
+              <option>Private party</option>
+              <option>Ticketed event</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="fLayout">Layout</label>
+            <select id="fLayout">
+              <option value="50">Standing (up to 50)</option>
+              <option value="40">Seated dining (up to 40)</option>
+              <option value="35">Classroom (up to 35)</option>
+              <option value="30">Theatre or boardroom (up to 30)</option>
+            </select>
+          </div>
+          <div class="field" id="dateField">
+            <label for="fDate">Date</label>
+            <input type="date" id="fDate" required>
+            <p class="msg bad" id="dateMsg"></p>
+          </div>
+          <div class="field">
+            <label for="fTime">Start time</label>
+            <select id="fTime">
+              <option>12:00 pm</option><option>1:00 pm</option><option>2:00 pm</option><option>3:00 pm</option>
+              <option>4:00 pm</option><option>5:00 pm</option><option selected>6:00 pm</option><option>7:00 pm</option>
+              <option>8:00 pm</option><option>9:00 pm</option>
+            </select>
+          </div>
+          <div class="field full">
+            <label for="fGuests">Guests</label>
+            <div class="stepper">
+              <button type="button" id="minus" aria-label="Fewer guests"><i class="fa-solid fa-minus"></i></button>
+              <input type="number" id="fGuests" value="20" min="1" max="50" aria-label="Number of guests">
+              <button type="button" id="plus" aria-label="More guests"><i class="fa-solid fa-plus"></i></button>
+            </div>
+            <p class="msg warn" id="guestMsg"></p>
+          </div>
+          <div class="field" id="nameField">
+            <label for="fName">Your name</label>
+            <input type="text" id="fName" autocomplete="name" required placeholder="Jane Doe">
+          </div>
+          <div class="field" id="emailField">
+            <label for="fEmail">Email</label>
+            <input type="email" id="fEmail" autocomplete="email" required placeholder="jane@email.com">
+          </div>
+          <div class="field full">
+            <label for="fNote">Anything we should know? <span style="font-weight:500">(optional)</span></label>
+            <textarea id="fNote" placeholder="Budget, menu ideas, decorations..."></textarea>
+          </div>
+        </div>
+        <div class="summary">
+          <div><small>Minimum spend</small><strong>from $500</strong></div>
+          <div style="text-align:right"><small id="sumLine">Birthday party &middot; 20 guests</small><small id="sumDate">Pick a date</small></div>
+        </div>
+        <button type="submit" class="btn btn-amber">Send booking request <i class="fa-solid fa-arrow-right"></i></button>
+        <p class="fine"><i class="fa-solid fa-lock"></i> No payment taken now. Prices include sales tax.</p>
+      </form>
+      <div class="success" role="status">
+        <i class="fa-solid fa-circle-check"></i>
+        <h3>Request sent!</h3>
+        <p id="successText">Jaxton will get back to you within a few hours to confirm your date.</p>
+        <button class="btn btn-dark" style="width:auto;margin-top:22px" id="again"><i class="fa-solid fa-rotate-left"></i> Send another</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ + MAP -->
+<section id="faq">
+  <div class="wrap faq-grid">
+    <div class="reveal">
+      <span class="eyebrow">Questions</span>
+      <h2>Quick answers.</h2>
+      <div class="faq">
+        <details open><summary>What does the minimum spend cover? <i class="fa-solid fa-plus"></i></summary><p>The $500 minimum goes toward food and drinks for your group. The kitchen can create a menu for budgets of all types, and the price already includes sales tax.</p></details>
+        <details><summary>Can I see a layout of the rooftop? <i class="fa-solid fa-plus"></i></summary><p>There is no printed floor plan, but Jaxton is happy to send extra photos or hop on a quick call to walk you through the space.</p></details>
+        <details><summary>Can we bring our own food, drinks or DJ? <i class="fa-solid fa-plus"></i></summary><p>Catering and drinks are handled in house, so outside food and BYO alcohol are not allowed. You can play your own music on the sound system, but outside DJs are not permitted.</p></details>
+        <details><summary>What is the cancellation policy? <i class="fa-solid fa-plus"></i></summary><p>Cancel 7 or more days before your event for a full refund. Between 7 days and 24 hours you get 50% back. Cancellations within 24 hours are non refundable.</p></details>
+        <details><summary>Is the rooftop accessible? <i class="fa-solid fa-plus"></i></summary><p>The rooftop is upstairs and there is no lift, so it is not wheelchair accessible. Accessible restrooms are available on site.</p></details>
+      </div>
+    </div>
+    <div class="map reveal d1">
+      <iframe title="Map showing Sazerac at 1851 Union Street" loading="lazy" src="https://maps.google.com/maps?q=1851%20Union%20Street%2C%20San%20Francisco%2C%20CA%2094123&z=15&output=embed"></iframe>
+      <div class="map-info">
+        <div><strong>Sazerac, 1851 Union Street</strong><span>Cow Hollow, San Francisco, CA 94123</span></div>
+        <a href="https://www.google.com/maps/dir/?api=1&destination=1851+Union+Street+San+Francisco+CA+94123" target="_blank" rel="noopener">Directions <i class="fa-solid fa-diamond-turn-right"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer>
+  <div class="wrap">
+    <div class="f-grid">
+      <div>
+        <a href="#top" class="logo"><span class="logo-mark"><i class="fa-solid fa-champagne-glasses"></i></span><span>Sazerac<small>Rooftop &middot; Union St</small></span></a>
+        <p>An open air rooftop bar and private event space in the heart of Cow Hollow, San Francisco.</p>
+        <div class="socials">
+          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" aria-label="Yelp"><i class="fa-brands fa-yelp"></i></a>
+        </div>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="#space">The Space</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#plan">Capacity &amp; Prices</a></li>
+          <li><a href="#details">Details</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Plan</h4>
+        <ul>
+          <li><a href="#book">Book the Rooftop</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#faq">Directions</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><i class="fa-solid fa-location-dot"></i> 1851 Union Street, San Francisco, CA 94123</li>
+          <li><i class="fa-regular fa-clock"></i> Wed to Sun, 12 pm to 10 pm</li>
+          <li><i class="fa-regular fa-user"></i> Event manager: Jaxton F.</li>
+        </ul>
+      </div>
+    </div>
+    <p class="copy">&copy; <span id="year"></span> Sazerac Rooftop. All rights reserved.</p>
+  </div>
+</footer>
+
+<!-- MOBILE CTA -->
+<div class="sticky-cta" id="stickyCta">
+  <div><strong>From $500</strong><small>min. spend &middot; up to 50 guests</small></div>
+  <a href="#book" class="btn btn-amber">Book now</a>
+</div>
+
+<!-- LIGHTBOX -->
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Photo viewer">
+  <button class="lb-btn lb-close" id="lbClose" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+  <button class="lb-btn lb-prev" id="lbPrev" aria-label="Previous photo"><i class="fa-solid fa-chevron-left"></i></button>
+  <figure><img id="lbImg" src="" alt=""><figcaption><b id="lbCap"></b><span id="lbNum"></span></figcaption></figure>
+  <button class="lb-btn lb-next" id="lbNext" aria-label="Next photo"><i class="fa-solid fa-chevron-right"></i></button>
+</div>
+
+<script>
+(() => {
+  const $ = s => document.querySelector(s), $$ = s => [...document.querySelectorAll(s)];
+  $('#year').textContent = new Date().getFullYear();
+
+  /* nav */
+  const nav = $('#nav'), links = $('#navLinks'), burger = $('#burger');
+  const onScroll = () => nav.classList.toggle('scrolled', scrollY > 40);
+  addEventListener('scroll', onScroll, {passive:true}); onScroll();
+  const toggleMenu = open => {
+    links.classList.toggle('open', open);
+    burger.setAttribute('aria-expanded', open);
+    burger.innerHTML = open ? '<i class="fa-solid fa-xmark"></i>' : '<i class="fa-solid fa-bars"></i>';
+  };
+  burger.addEventListener('click', () => toggleMenu(!links.classList.contains('open')));
+  links.querySelectorAll('a').forEach(a => a.addEventListener('click', () => toggleMenu(false)));
+
+  /* reveal */
+  const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } }), {threshold:.12});
+  $$('.reveal').forEach(el => io.observe(el));
+
+  /* dates: helpers */
+  const pad = n => String(n).padStart(2,'0');
+  const today = new Date(); today.setHours(0,0,0,0);
+  const iso = d => `${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())}`;
+  const dayNames = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+  const parse = v => { const [y,m,d] = v.split('-').map(Number); return new Date(y, m-1, d); };
+  const nextOpen = d => { const n = new Date(d); do { n.setDate(n.getDate()+1); } while ([1,2].includes(n.getDay())); return n; };
+  const fmt = d => d.toLocaleDateString('en-US', {weekday:'short', month:'short', day:'numeric'});
+  const checkDate = v => {
+    if (!v) return 'Please choose a date.';
+    const d = parse(v);
+    if (d < today) return 'That date has passed. Please pick a future date.';
+    if ([1,2].includes(d.getDay())) return `The rooftop is closed on ${dayNames[d.getDay()]}s. The next open day is ${fmt(nextOpen(d))}.`;
+    return '';
+  };
+  ['#qDate','#fDate'].forEach(s => $(s).min = iso(today));
+  const todayRow = $(`#week li[data-d="${new Date().getDay()}"]`); if (todayRow) todayRow.classList.add('today');
+
+  /* quick form → booking form */
+  $('#quickForm').addEventListener('submit', e => {
+    e.preventDefault();
+    const v = $('#qDate').value, err = v ? checkDate(v) : '';
+    const note = $('#quickNote');
+    if (err) { note.textContent = err; note.classList.add('show'); return; }
+    note.classList.remove('show');
+    $('#fType').value = $('#qType').value;
+    if (v) $('#fDate').value = v;
+    $('#fGuests').value = $('#qGuests').value;
+    updateGuests(); updateSummary(); validateDate();
+    $('#book').scrollIntoView({behavior:'smooth'});
+    setTimeout(() => $('#fName').focus({preventScroll:true}), 700);
+  });
+
+  /* gallery filter */
+  const tiles = $$('.tile');
+  $$('.filters button').forEach(b => b.addEventListener('click', () => {
+    $$('.filters button').forEach(x => { x.classList.remove('active'); x.setAttribute('aria-selected','false'); });
+    b.classList.add('active'); b.setAttribute('aria-selected','true');
+    const f = b.dataset.filter; let n = 0;
+    tiles.forEach(t => { const show = f === 'all' || t.dataset.cat === f; t.classList.toggle('hide', !show); if (show) n++; });
+    $('#countText').textContent = f === 'all' ? `Showing all ${n} photos` : `Showing ${n} ${f === 'roof' ? 'rooftop' : 'dining room'} photos`;
+  }));
+
+  /* lightbox */
+  const lb = $('#lb'), lbImg = $('#lbImg'); let cur = 0, list = [], lastFocus;
+  const show = i => {
+    cur = (i + list.length) % list.length;
+    const t = list[cur], img = t.querySelector('img');
+    lbImg.style.opacity = 0;
+    setTimeout(() => { lbImg.src = img.src; lbImg.alt = img.alt; lbImg.style.opacity = 1; }, 120);
+    $('#lbCap').textContent = t.dataset.title;
+    $('#lbNum').textContent = `${cur+1} / ${list.length}`;
+  };
+  tiles.forEach(t => t.addEventListener('click', () => {
+    list = tiles.filter(x => !x.classList.contains('hide'));
+    lastFocus = t; lb.classList.add('open'); document.body.style.overflow = 'hidden';
+    show(list.indexOf(t)); $('#lbClose').focus();
+  }));
+  const close = () => { lb.classList.remove('open'); document.body.style.overflow = ''; lastFocus && lastFocus.focus(); };
+  $('#lbClose').onclick = close; $('#lbPrev').onclick = () => show(cur-1); $('#lbNext').onclick = () => show(cur+1);
+  lb.addEventListener('click', e => { if (e.target === lb) close(); });
+  addEventListener('keydown', e => {
+    if (!lb.classList.contains('open')) return;
+    if (e.key === 'Escape') close();
+    if (e.key === 'ArrowLeft') show(cur-1);
+    if (e.key === 'ArrowRight') show(cur+1);
+  });
+  let sx = 0;
+  lb.addEventListener('touchstart', e => sx = e.touches[0].clientX, {passive:true});
+  lb.addEventListener('touchend', e => { const dx = e.changedTouches[0].clientX - sx; if (Math.abs(dx) > 50) show(cur + (dx < 0 ? 1 : -1)); });
+
+  /* capacity selector */
+  const dots = $('#dots');
+  for (let i = 0; i < 50; i++) dots.insertAdjacentHTML('beforeend', '<i class="fa-solid fa-user"></i>');
+  const setCap = b => {
+    const n = +b.dataset.n, num = $('#capNum');
+    num.textContent = n; num.classList.add('bump'); setTimeout(() => num.classList.remove('bump'), 250);
+    $('#capName').textContent = b.dataset.name; $('#capHint').textContent = b.dataset.hint;
+    [...dots.children].forEach((d, i) => d.classList.toggle('on', i < n));
+  };
+  $$('#formats button').forEach(b => b.addEventListener('click', () => {
+    $$('#formats button').forEach(x => x.classList.remove('active')); b.classList.add('active'); setCap(b);
+  }));
+  setCap($('#formats .active'));
+
+  /* booking form */
+  const g = $('#fGuests'), guestMsg = $('#guestMsg');
+  const updateGuests = () => {
+    let v = Math.round(+g.value || 1); v = Math.max(1, Math.min(50, v)); g.value = v;
+    const max = +$('#fLayout').value;
+    if (v > max) { guestMsg.textContent = `This layout fits up to ${max}. Choose standing for up to 50 guests.`; guestMsg.classList.add('show'); }
+    else guestMsg.classList.remove('show');
+    updateSummary();
+  };
+  $('#minus').onclick = () => { g.value = +g.value - 1; updateGuests(); };
+  $('#plus').onclick = () => { g.value = +g.value + 1; updateGuests(); };
+  g.addEventListener('change', updateGuests);
+  $('#fLayout').addEventListener('change', updateGuests);
+
+  const updateSummary = () => {
+    $('#sumLine').textContent = `${$('#fType').value} \u00b7 ${g.value} guests`;
+    const v = $('#fDate').value;
+    $('#sumDate').textContent = v && !checkDate(v) ? `${fmt(parse(v))} at ${$('#fTime').value}` : 'Pick a date';
+  };
+  ['#fType','#fTime'].forEach(s => $(s).addEventListener('change', updateSummary));
+
+  const validateDate = () => {
+    const err = checkDate($('#fDate').value), m = $('#dateMsg');
+    m.textContent = err; m.classList.toggle('show', !!err && !!$('#fDate').value);
+    $('#dateField').classList.toggle('err', !!err && !!$('#fDate').value);
+    updateSummary(); return !err;
+  };
+  $('#fDate').addEventListener('change', validateDate);
+
+  $('#bookForm').addEventListener('submit', e => {
+    e.preventDefault();
+    let ok = true;
+    if (!validateDate()) { ok = false; const m = $('#dateMsg'); m.textContent = checkDate($('#fDate').value); m.classList.add('show'); $('#dateField').classList.add('err'); }
+    const name = $('#fName').value.trim(), email = $('#fEmail').value.trim();
+    $('#nameField').classList.toggle('err', !name); if (!name) ok = false;
+    const emailOk = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+    $('#emailField').classList.toggle('err', !emailOk); if (!emailOk) ok = false;
+    if (+g.value > +$('#fLayout').value) ok = false;
+    if (!ok) { const first = $('#bookForm .err input, #bookForm .err select'); first && first.focus(); return; }
+    $('#successText').textContent = `Thanks ${name.split(' ')[0]}! Your ${$('#fType').value.toLowerCase()} request for ${g.value} guests on ${fmt(parse($('#fDate').value))} is in. Jaxton will reply to ${email} within a few hours.`;
+    $('#formBox').classList.add('done');
+  });
+  ['#fName','#fEmail'].forEach(s => $(s).addEventListener('input', e => e.target.closest('.field').classList.remove('err')));
+  $('#again').onclick = () => { $('#bookForm').reset(); g.value = 20; updateGuests(); validateDate(); $('#formBox').classList.remove('done'); };
+  updateSummary();
+
+  /* string lights in booking section */
+  const lights = $('#lights');
+  for (let i = 0; i < 24; i++) {
+    const s = document.createElement('span');
+    const x = (i + .5) / 24;
+    s.style.left = `${x * 100}%`;
+    s.style.top = `${10 + Math.sin(x * Math.PI * 3) * 8 + 10}px`;
+    s.style.animationDelay = `${(i % 6) * .4}s`;
+    lights.appendChild(s);
+  }
+
+  /* hide mobile CTA when the form is on screen */
+  const cta = $('#stickyCta');
+  new IntersectionObserver(([e]) => cta.classList.toggle('hidden', e.isIntersecting), {threshold:.15}).observe($('#book'));
+})();
+</script>
+</body>
+</html>
